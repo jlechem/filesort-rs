@@ -18,7 +18,7 @@ To use filesort you pass in the name of the file you want sorted along with seve
 * --word,             Reads data in per word rather than per line
 
 ## Example
-* `filesort --input-file test.txt --output-file output.txt` Reads the data from test.txt and writes it to output,txt in ascending order
+* `filesort --input-file test.txt --output-file output.txt --line` Reads the data from test.txt per line and writes it to output,txt in ascending order
 
 # Requirements
 You must have the Rust compiler installed.
