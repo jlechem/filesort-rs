@@ -18,13 +18,13 @@ To use filesort you pass in the name of the file you want sorted along with seve
 * --word,             Reads data in per word rather than per line
 
 ## Example
-* `filesort --input-file test.txt --output-file output.txt` Reads the data from test.txt and writes it to output,txt in ascending
+* `filesort --input-file test.txt --output-file output.txt` Reads the data from test.txt and writes it to output,txt in ascending order
 
 # Requirements
 You must have the Rust compiler installed.
 
 ## Getting
-`git clone --recursive https://github.com/jlechem/filesort`
+`git clone --recursive https://github.com/jlechem/filesort-rs
 
 ### Building
 * Navigate to the filesort-rs directory and use cargo build --release
